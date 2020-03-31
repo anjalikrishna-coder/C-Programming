@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Anjalikrishna");
+printf("\nElectronics and Communication Engineering");
+printf("\nCollege of Engineering Chengannur");
+    return 0;
+}
