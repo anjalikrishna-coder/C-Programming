@@ -2,11 +2,16 @@
 
 int main()
 {
-    printf("STUDENT NAME:%s\n","ARCHANA KRISHNA");
-    printf("AGE:%d years\n",15);
-    printf("SCHOOL:%s\n","CHINMAYA VIDYALAYA");
-    printf("CLASS:%d STD\n",10);
-    printf("MARKS IN CGPA:%f\n",9.8);
+    char NAME [] ="ARCHANA KRISHNA";
+    int AGE = 15;
+    char Sclname [] ="CHINMAYA VIDYALAYA";
+    int class = 10; 
+    double marks = 9.8;
+    printf("STUDENT NAME:%s\n",NAME);
+    printf("AGE:%d years\n",AGE);
+    printf("SCHOOL:%s\n",Sclname);
+    printf("CLASS:%d STD\n",class);
+    printf("MARKS IN CGPA:%f\n",marks);
 
     return 0;
 }
