@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("STUDENT NAME:%s\n","ARCHANA KRISHNA");
+    printf("AGE:%d years\n",15);
+    printf("SCHOOL:%s\n","CHINMAYA VIDYALAYA");
+    printf("CLASS:%d STD\n",10);
+    printf("MARKS IN CGPA:%f\n",9.8);
+
+    return 0;
+}
