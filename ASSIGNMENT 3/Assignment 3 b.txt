@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    /*input principle, rate and time*/
+    double P;
+    double R;
+    double T;
+    double SI;
+    printf("Enter Principle:");
+    scanf("%lf", &P);
+    printf("Enter Rate:");
+    scanf("%lf", &R);
+    printf("Enter Time Period:");
+    scanf("%lf", &T);
+    /* calculate simple interest */
+    SI = (P*R*T)/100
+    /*Print the resultant value of simple interest*/;
+    printf("Simple Interest is %f",SI);
+
+    return 0;
+}
